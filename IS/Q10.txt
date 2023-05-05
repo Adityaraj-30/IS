@@ -1,0 +1,28 @@
+Q10 a) Illustrate Ciphertext only attack 
+Ciphertext-only attacks refer to a situation where an attacker has access to only 
+the encrypted form of a message or data, and does not have any knowledge 
+about the original plaintext. The goal of the attacker in this case is to analyse the 
+ciphertext and try to derive information about the original plaintext, such as its 
+content or its meaning. Ciphertext-only attacks are often considered the most 
+difficult type of attack because the attacker has no knowledge or information 
+about the original message or data. 
+For example:- 
+An attacker has access to following two cipher texts possibly encoded 
+with same key. 
+
+
+
+Thus, by guessing the key, attacker was able to decode the messages. 
+Attacker can also use strategies like frequency distribution of alphabets, 
+repetitive pairs of texts in ciphertext, etc. 
+Q10 b) Illustrate Known Plaintext attack 
+A known plaintext attack occurs when the attacker has access to both the 
+plaintext and the corresponding ciphertext. The goal of the attacker in this case 
+is to analyse the relationship between the plaintext and the ciphertext, and use 
+that information to try to derive the secret key used to encrypt the message. 
+Known plaintext attacks are often easier than ciphertext-only attacks because 
+the attacker has access to both the plaintext and ciphertext, which can reveal 
+important information about the encryption algorithm used. 
+For example:- 
+An attacker has access to following ciphertext and its corresponding 
+plaintext . 
