@@ -1,3 +1,9 @@
+//1001011
+//0101110
+//0010111
+    
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
